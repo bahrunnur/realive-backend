@@ -1,0 +1,13 @@
+applications:
+- services:
+  - Realive-MAS
+  - Realive-Push
+  - Realive-MobileData
+  disk_quota: 1024M
+  host: thisisrealive
+  name: Realive
+  command: node app.js
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 128M

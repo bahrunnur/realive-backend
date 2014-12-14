@@ -1,0 +1,19 @@
+{
+  "name": "realive",
+  "version": "0.1.0",
+  "description": "prioritized emergency warning system based on nearest located rescuers",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "bahrunnur",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.10.0",
+    "express": "^4.10.6",
+    "ibmbluemix": "^1.0.0-20141113-1411",
+    "ibmdata": "^1.0.0-20141113-1411",
+    "ibmpush": "^1.0.0-20141113-1411"
+  }
+}
